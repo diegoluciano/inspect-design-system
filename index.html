@@ -127,7 +127,91 @@ pre .c{color:#7e78a6}pre .v{color:var(--green)}
 .ctx b{display:block;font-size:14px}.ctx small{color:#a9a4c9;font-size:12px}.cr{font-family:var(--mono);font-size:13px;text-align:right}
 .callout{margin-top:18px;background:rgba(90,231,112,.1);border:1px solid rgba(90,231,112,.4);border-radius:14px;padding:14px 18px;font-size:14px;line-height:1.5;color:#e6f8ea}
 .callout b{color:var(--green)}
-</style></head><body>
+</style><style id="bc-mobile">/* mobile-mobile-mobile */
+@media (max-width: 900px) {
+  html, body { overflow-x: hidden; }
+  section { height: auto !important; min-height: 0 !important; overflow: visible !important; padding: 44px 20px 52px !important; }
+  .wrap { max-width: 100%; }
+  .nav { height: 58px; padding: 0 16px; gap: 12px; }
+  .nav a { display: none !important; }
+  .nav img { height: 24px; }
+  .nav .tag { font-size: 9.5px; padding: 4px 9px; letter-spacing: .08em; }
+  h2.t { font-size: 34px !important; line-height: 1.05; margin: 8px 0 10px; }
+  .lead { font-size: 15px; }
+  /* hero */
+  .hero { padding-top: 44px !important; }
+  .hero .wrap { grid-template-columns: 1fr !important; height: auto !important; gap: 28px; }
+  .hero h1 { font-size: 54px !important; margin: 12px 0 14px; }
+  .hero p { font-size: 16px; }
+  .stats { gap: 18px; flex-wrap: wrap; margin-top: 26px; }
+  .stats div b { font-size: 26px; }
+  .herovis { height: 430px !important; position: relative; }
+  .herovis .logo { position: absolute; width: min(280px, 72%) !important; left: 0 !important; top: 0 !important; }
+  .herovis .wm { position: absolute; width: 190px !important; left: 0 !important; top: 0 !important; }
+  .ph { width: 150px !important; border-radius: 22px; box-shadow: 0 18px 36px rgba(0,0,0,.4), 0 0 0 4px #1b1535; }
+  .ph:nth-of-type(1) { left: 6px !important; top: 120px !important; }
+  .ph:nth-of-type(2) { left: 150px !important; top: 168px !important; }
+  .fanbox { position: absolute !important; right: 0 !important; left: 0 !important; top: 150px !important; width: auto !important; height: 250px !important; border-radius: 20px; }
+  /* grids collapse */
+  .cgrid, .tgrid, .tk, .cx, .lk, .rules, .roles, .shape, .irow { grid-template-columns: minmax(0, 1fr) !important; gap: 22px; }
+  .cgrid > *, .tgrid > *, .tk > *, .cx > *, .lk > *, .rules > *, .roles > *, .shape > *, .irow > *, .bento > * { min-width: 0; }
+  .shape { gap: 22px; }
+  .sg__row { flex-wrap: wrap; }
+  .sw { flex: 1 1 calc(50% - 12px) !important; min-height: 112px; }
+  .sw[data-half] { flex: 1 1 calc(50% - 12px) !important; }
+  .ramp { grid-template-columns: 1fr; gap: 6px; }
+  .rc { height: 44px; padding: 4px; font-size: 9.5px; }
+  .mkbox { grid-template-columns: repeat(2, 1fr) !important; gap: 12px; }
+  .mk { height: 150px !important; }
+  .igrid { grid-template-columns: repeat(4, 1fr) !important; gap: 10px; }
+  .ic { padding: 10px 4px 8px; }
+  .ic__b { height: 60px; } .ic__b img { max-height: 40px; max-width: 44px; }
+  .ic code { display: none; }
+  .bento { grid-template-columns: minmax(0, 1fr) !important; gap: 14px; }
+  .bento > * { grid-column: auto !important; }
+  .card { padding: 16px; }
+  .spec { height: 220px; padding: 20px; } .spec .aa { font-size: 100px; } .spec .w { right: 18px; top: 18px; font-size: 13px; }
+  .scale .row { grid-template-columns: 1fr; gap: 4px; padding: 12px 0; }
+  .scale .row .meta { text-align: left; }
+  .scale .row span:first-child { font-size: min(1em, 100%); overflow-wrap: anywhere; }
+  .phones { flex-wrap: wrap; gap: 18px; justify-content: center; padding-top: 6px; }
+  .dv { width: 200px !important; height: 424px !important; }
+  .fanbig { height: auto !important; aspect-ratio: 1.67 / 1; }
+  .legend { margin-top: 10px; }
+  .pillars { flex-wrap: wrap; } .pillars div { flex: 1 1 calc(50% - 12px); }
+  .crow { grid-template-columns: 40px 1fr 56px 78px; gap: 8px; }
+  .csw { width: 40px; height: 28px; font-size: 13px; }
+  .mrow { grid-template-columns: 78px 22px 62px 14px 22px 62px; gap: 6px; }
+  pre { height: auto !important; overflow-x: auto; max-width: 100%; font-size: 11px !important; padding: 14px !important; }
+  .callout { font-size: 13px; }
+  .elev div { height: 52px; } .rad div { width: 54px; height: 54px; }
+  .abc { font-size: 15px; }
+  .chip { white-space: normal; }
+  .mgrid, .cx > div { min-width: 0; }
+  .kid, .lcard, .prof, .sheet { min-width: 0; }
+  .grad { grid-template-columns: 1fr !important; }
+
+  .cp, .fgrid { grid-template-columns: minmax(0, 1fr) !important; gap: 18px; }
+  .fig img { height: 340px !important; }
+  .dimg { border-radius: 18px; }
+  .dimg:nth-of-type(1) { left: 6px !important; top: 126px !important; width: 168px !important; }
+  .dimg:nth-of-type(2) { left: 172px !important; top: 196px !important; width: 150px !important; }
+  .spec { height: auto !important; min-height: 0; padding: 18px 20px 20px !important; }
+  .spec .w { position: static !important; text-align: left !important; margin-bottom: 4px; }
+  .spec .aa { font-size: 84px !important; }
+  .pins { flex-wrap: wrap; }
+  .card[style*="grid-template-columns"] { display: block !important; }
+  .card[style*="display:flex"] { flex-wrap: wrap; gap: 16px !important; }
+  .fanbig .pin, .dv .pin { transform: translate(-50%, -50%) scale(.85); }
+}
+@media (max-width: 420px) {
+  .hero h1 { font-size: 46px !important; }
+  h2.t { font-size: 30px !important; }
+  .igrid { grid-template-columns: repeat(3, 1fr) !important; }
+  .mkbox { grid-template-columns: 1fr 1fr !important; }
+}
+</style>
+</head><body>
 
 <header class="nav" id="nav"><img src="assets/logo-reduzida-fundo-escuro.png" alt="Inspect"><a href="#fundacao">Color</a><a href="#tipo">Type &amp; shape</a><a href="#icones">Icons</a><a href="#componentes">Components</a><a href="#contexto">In context</a><a href="#tokens">Tokens</a><span class="tag">Retrospective · simulated</span></header>
 
